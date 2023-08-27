@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(37deg, rgba(238, 174, 202, 1) 0%, rgba(218, 116, 207, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 400px;
+    background: white;
+    border-radius: 1rem;
+    transform: scale(.92);
+}
+
+
+#container.grow {
+    box-shadow: 0px 1px 96px 4px rgba(0, 0, 0, 0.16);
+    transform: scale(.95);
+    transition: all .3s ease;
+}
+
+#container.grow:hover {
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+
+div#hero {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height:200px;
+}
+
+div#hero img {
+    transform: translate(-310px, -400px) scale(.6);
+    transition: all .3s ease;
+    }
+
+div#hero img.shrink{
+    transform: translate(-310px, -400px) scale(.4);
+    transition: all .3s ease;
+    
+}
+
+div#main {
+    padding: 16px 16px;
+}
+
+h1,
+h3,
+p {
+    margin: 0;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 8px 0px;
+    color: #e18ace;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: lightgray;
+
+}
+
+#controls {
+    display: flex;
+    gap: 4px;
+}
+
+button {
+    flex: 1;
+    padding: 8px;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, .0);
+    transform: translateY(0px);
+    transition: all .3s ease;
+}
+
+button:hover {
+    box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, .06);
+    transform: translateY(-6px);
+    transition: all .3s ease;
+}
+
+
+
+button:first-child {
+    background: rgba(238, 174, 202, .8);
+}
+
+button:first-child:active {
+    background: rgba(238, 174, 202, 1);
+}
+
+button:nth-child(2) {
+    border: 1px solid purple;
+    color: purple;
+    background: transparent;
+}
+
+button:nth-child(2):active{
+    background:rgba(0, 0, 0, 0.16);
+}
+
+button:last-child {
+    background: rgba(218, 116, 207, .8);
+}
+
+button:last-child:active {
+    background: rgba(218, 116, 207, 1);
+}
+
+#rules {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+span#p1_score {
+    color: rgba(238, 174, 202, 1);
+}
+
+span#p2_score {
+    color: rgba(218, 116, 207, 1);
+}
+
+
+h1 span:nth-child(2) {
+    color: lightgrey;
+    font-size: 1.75rem;
+    background: white;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 6rem;
+}
+
+h2{
+    text-transform: capitalize;
+}
