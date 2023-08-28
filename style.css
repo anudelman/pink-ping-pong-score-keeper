@@ -133,11 +133,11 @@ button:last-child:active {
 }
 
 
-span#p1_score {
+span#p1Score {
     color: rgba(238, 174, 202, 1);
 }
 
-span#p2_score {
+span#p2Score {
     color: rgba(218, 116, 207, 1);
 }
 
