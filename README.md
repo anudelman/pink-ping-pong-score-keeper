@@ -13,4 +13,4 @@
 - A button to reset the game.
 - A dropdown to change the maximum score.
 
-### A simple Ping Pong Score Keeper application using HTML, CSS, and JavaScript. I wanted to challenge myself to create a basic interface, style it, and implement interactive functionality for score tracking and resetting. In the future I might enhance this project by adding features like win detection as a UI elemnt (e.g. - A dialog VS currently in console.log), additional micro-interactions, theming options, adding player names, scoreboard history and more.
+### A simple Ping Pong Score Keeper application using HTML, CSS, and JavaScript. This project was assigned as part of Colt Steele's 2023 Web Developer Bootcamp on Udemy. I challenged myself by taking a slightly different approach in creating a basic interface, styling it, and implementing interactive functionality for score tracking and resetting. In the future I might enhance this project by adding features like win detection as a UI elemnt (e.g. - A dialog VS currently printing to the console), additional micro-interactions, theming options, adding player names, scoreboard history and more.  
